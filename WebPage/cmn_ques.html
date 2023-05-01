@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gub's Taxidermy</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@300&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "cmn_ques.css">
+    </head>
+    <body>
+        <div class = "app">
+            <div class =  "menu-toggle">
+                <div class = "hamburger">
+                    <span></span>
+                </div>
+            </div>
+
+            <aside class = "sidebar">
+                <h3>Menu</h3>
+                <nav class = "menu">
+                    <a href = "webhome.html" class = "nav-link">Home</a>
+                    <a href = "suppli.html" class = "nav-link">Supplies</a>
+                    <a href = "cmn_ques.html" class = "nav-link is-active">Common Questions</a>
+                    <a href = "licen.html" class = "nav-link">Obtaining a License</a>
+                </nav>
+
+            </aside>
+
+            
+            <main class = content>
+                <div class =header>
+                    <img src = "t_logo.png"  alt="logo">
+                    <h1>GUB'S TAXIDERMY</h1>
+
+                </div>
+                <div class = text>
+                    <h1>Common Questions</h1>
+
+                    <h2>How Long Does Taxidermy Take?</h2>
+                    <img class = "left" src = "" alt = "">
+                    <p></p>
+
+                    <h2>What Is The Oldest Piece of Taxidermy?</h2>
+                    <img class = "right" src = "old.png" alt = "Photo by Max Cortesi">
+                    <p>The oldest piece of taxidermy is a crocodile at the Santuario Madonna delle Lacrime Immacolate.Though its origins have been lost to the ages, 
+                    the church has documents detailing the crocodile's removal from the church in 1534. At the very least, it's some 500 years old, making it the oldest 
+                    existing piece of taxidermy in the world. It was thought to be missing, but in the 18th century the crocodile had reappeared in the church's attic.
+                    It was strung up from the ceiling and has remained there ever since. </p>
+
+                    <h2>What Is The Hardest Thing to Taxidermy?</h2>
+                    <img class = "left" src = "snake.png" alt = "Photo by HicksTaxidermy">
+                    <p>Snakes and rabbits are by far the hardest thing to taxidermy. Snakes, because of the complex musculature they have. Snake's hide also often end up
+                    loosing their color and pigmentation when tanned. Taxidermists after tanning then have to completely paint each scale by hand
+                    in order to make it look authentic. With rabbits their skin can rip rather easily, making it incredibly difficult to handle. Rabbits also have
+                    a smaller bone structure that can be easily broken if mishandled.</p>
+
+                    <h2>What Are The Dangers of Old Taxidermy?</h2>
+                    <img class = "right" src = "ars.png" alt = "National Geographic">
+                    <p>It is very important to be cautious around taxidermy because most items created prior to 1980 likely contain arsenic. 
+                    Arsenic can be inhaled or absorbed through the skin. This is partly why it's very important to never touch taxidermy that is being 
+                    displayed. Arsenic is a potent poison and items possibly containing it should be treated with utmost care.</p>
+
+                    <h2>How Do Taxidermy Animals Not Rot?</h2>
+                    <img class = "left" src = "" alt = "">
+                    <p></p>
+                    <h2>How long does taxidermy last?</h2>
+                    <p>Taxidermy lasts for 20 years on average if not maintained. However, if it is maintained properly, it can remain in pristine condition for 50 years or more(
+                    History has shown evidence of this).Factors that reduce the life of taxidermy include extreme temperatures, humidity, exposure to light, bugs, and human touch.</p>
+
+                    <h2>How Long Does Taxidermy Last?</h2>
+                    <img class = "right" src = "" alt = "">
+                    <p></p>
+
+                    <h2>Has Anyone Ever Taxidermied a Human?</h2>
+                    <img class = "left" src = "" alt = "">
+                    <p>With the rise in popularity of taxidermy in the 19th century, there were numerous experiments of human taxidermy. the most famous 
+                        of which was probably Jeremy Bentham's unsuccessful attempt to have his body made into an 'auto-icon' after his death. There was also 
+                        'el negro' or 'the negro of Banyoles'.</p>
+
+                    <h2>Who Invented Taxidermy?</h2>
+                    <img class = "right" src = "" alt = "">
+                    <p>Carl Arkley is the man known as "The Father of Known Taxidermy"</p>
+
+                    <h2>Will Sunlight Damage Taxidermy?</h2>
+                    <img class = "left" src = "" alt = "">
+                    <p></p>
+
+                    <h2>Will Moisture Damage Taxidermy?</h2>
+                    <img class = "right" src = "" alt = "">
+                    <p></p>
+
+                    <h2>Why Is It Called Taxidermy?</h2>
+                    <img class = "left" src = "" alt = "">
+                    <p></p>
+
+                    <h2>Do Mounts Attract Bugs?</h2>
+                    <img class = "right" src = "" alt = "">
+                    <p></p>
+
+                    <h2>Is Taxidermy Illegal In The U.S?</h2>
+                    <img class = "left" src = "" alt = "">
+                    <p></p>
+
+                    <h2>Who Is Considered The World's Best Taxidermist?</h2>
+                    <img class = "right" src = "" alt = "">
+                    <p></p>
+
+
+                </div>
+
+
+        </div>
+
+        <script>
+            const menu_toggle = document.querySelector('.menu-toggle');
+            const sidebar = document.querySelector('.sidebar');
+
+            menu_toggle.addEventListener('click', () => {
+                menu_toggle.classList.toggle('is-active');
+                sidebar.classList.toggle('is-active');
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gub's Taxidermy</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@300&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "webhome.css">
+    </head>
+    <body>
+        <div class = "app">
+            <div class =  "menu-toggle">
+                <div class = "hamburger">
+                    <span></span>
+                </div>
+            </div>
+
+            <aside class = "sidebar">
+                <h3>Menu</h3>
+                <nav class = "menu">
+                    <a href = "webhome.html" class = "nav-link">Home</a>
+                    <a href = "#" class = "nav-link">Supplies</a>
+                    <a href = "gther.html" class = "nav-link is-active">Gathering</a>
+                    <a href = "cmn_ques.html" class = "nav-link">Common Questions</a>
+                    <a href = "licen.html" class = "nav-link">Obtaining a License</a>
+                    <a href = "imprt.html" class = "nav-link">Important Things to Know</a>
+                    <a href = "#" class = "nav-link">World of Taxidermy</a>
+                </nav>
+
+            </aside>
+
+            
+            <main class = content>
+                <div class =header>
+                    <img src = "t_logo.png"  alt="logo">
+                    <h1>GUB'S TAXIDERMY</h1>
+
+                </div>
+
+                <div class = text>
+                </div>
+
+            </main>
+
+        </div>
+
+        <script>
+            const menu_toggle = document.querySelector('.menu-toggle');
+            const sidebar = document.querySelector('.sidebar');
+
+            menu_toggle.addEventListener('click', () => {
+                menu_toggle.classList.toggle('is-active');
+                sidebar.classList.toggle('is-active');
+            });
+        </script>
+    </body>
+</html>
